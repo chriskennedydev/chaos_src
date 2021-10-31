@@ -9,6 +9,6 @@ Nothing to do with "Chaos Engineering", so please don't expect that.
 Getting Started
 ---------------
 
-Run the deps shell script and then run make && make install
-
-
+Run zig build to build.
+Run zig build run to run immediately after compiling. 
+Output directory is set to build -- executable and object file will be there. 
